@@ -1,6 +1,8 @@
 # Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-
 Create word embeddings using all comments from the /r/politics subreddit for the period Jan-Apr 2016. Each 'word vector' is a 300 dimensional vector trained using the Word2Vec CBOW algorithm. (The comments are phrase collocated before training.)
 
+You can find the Reddit Comments Dataset here: https://www.reddit.com/r/bigquery/wiki/datasets
+
 **Modeled in Python**
 
 ##Some examples:
