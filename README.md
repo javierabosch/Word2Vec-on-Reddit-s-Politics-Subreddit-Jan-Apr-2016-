@@ -1,6 +1,42 @@
 # Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-
-Create word embeddings using comments from the /r/politics subreddit for the period Jan-Apr 2016.
+Create word embeddings using all comments from the /r/politics subreddit for the period Jan-Apr 2016. Each 'word vector' is a 300 dimensional vector trained using the Word2Vec CBOW algorithm. (The comments are phrase collocated before training.)
 
-####Modeled in Python.
+**Modeled in Python**
 
-![Similar to 'Bernie'](https://github.com/sgrvinod/Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-/blob/master/examples/bernie.png?raw=true)
+##Some examples:
+
+###Words the model thinks is most similar to 'bernie':
+
+![Similar to 'bernie'](https://github.com/sgrvinod/Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-/blob/master/examples/bernie.png?raw=true)
+
+###Similar to 'hillary':
+
+![Similar to 'hillary'](https://github.com/sgrvinod/Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-/blob/master/examples/hillary.png?raw=true)
+
+Reddit's preference for Bernie is already apparent!
+
+###Let's make sure the model understands what a 'corrupt politician' means:
+
+![Corrupt](https://github.com/sgrvinod/Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-/blob/master/examples/hillary.png?raw=true)
+
+Seems like it does.
+
+###Find similarity of the term 'corrupt politician' with Bernie and Hillary:
+
+![Corrupt Politician](https://github.com/sgrvinod/Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-/blob/master/examples/corrupt%20politician%20candidates.png?raw=true)
+
+Haha! The actual valus of the cosine similarities might be a little arbitrary, but who has the larger value definitely reflects Reddit's (and nearly everyone else's) sentiment.
+
+###Similarly, to find the 'idealistic' candidate:
+
+![Idealistic](https://github.com/sgrvinod/Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-/blob/master/examples/idealistic.png?raw=true)
+
+![Idealistic Candidate](https://github.com/sgrvinod/Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-/blob/master/examples/idealistic%20candidates.png?raw=true)
+
+Not surprising.
+
+
+
+
+
+
