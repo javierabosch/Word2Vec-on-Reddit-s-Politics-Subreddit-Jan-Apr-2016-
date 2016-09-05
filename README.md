@@ -21,11 +21,11 @@ Reddit's preference for Bernie is already apparent!
 
 Seems like it does.
 
-####Find similarity of the term 'corrupt politician' with Bernie and Hillary:
+####Find similarities of the term 'corrupt politician' with Bernie and Hillary:
 
 ![Corrupt Politician](https://github.com/sgrvinod/Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-/blob/master/examples/corrupt%20politician%20candidates.png?raw=true)
 
-Haha! The actual valus of the cosine similarities might be a little arbitrary, but who has the larger value definitely reflects Reddit's (and nearly everyone else's) sentiment.
+Haha! The actual values of the cosine similarities might be a little arbitrary, but who has the larger value definitely reflects Reddit's (and nearly everyone else's) sentiment.
 
 ####Similarly, to find the 'idealistic' candidate:
 
@@ -35,7 +35,7 @@ Haha! The actual valus of the cosine similarities might be a little arbitrary, b
 
 Not surprising.
 
-####I noticed pro-Bernie posts on the subreddit almost never linked to the mainstream media. There were certain sites that always made it to the front page, either more independent news outlets or right-wing websites that were pro-Bernie because by virtue of being anti-Hillary:
+####I noticed pro-Bernie posts on the subreddit almost never linked to the mainstream media. There were certain sites that always made it to the front page, that were either one of the more independent news outlets, or right-wing websites that were pro-Bernie by virtue of being anti-Hillary:
 
 ![pro-Bernie News](https://github.com/sgrvinod/Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-/blob/master/examples/freebeacon.png?raw=true)
 
@@ -43,7 +43,7 @@ Not surprising.
 
 ![Vermont Senator](https://github.com/sgrvinod/Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-/blob/master/examples/vermont%20senator.png?raw=true)
 
-####Using cosine distances, we can also find exceptions in groups:
+####Using cosine distances, it's also possible to find exceptions in groups:
 
 ![Parties](https://github.com/sgrvinod/Word2Vec-on-Reddit-s-Politics-Subreddit-Jan-Apr-2016-/blob/master/examples/parties.png?raw=true)
 
